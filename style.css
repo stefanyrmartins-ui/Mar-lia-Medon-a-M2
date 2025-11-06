@@ -48,13 +48,13 @@ margin-bottom: 24px;
     margin: 0 auto;
 }
 
-#show img {
-    margin: 20px auto;
+.goiania{
     text-align: center;
 }
 
-#show figure img {
-    width: 300px;
+.goiania figure img {
+    width: 700px;
+    margin: 0 auto;
 }
 
 #img {
@@ -63,7 +63,7 @@ margin-bottom: 24px;
 }
 
 .biografia h2{
-    border-left: 2px solid cornflowerblue;
+    border-left: 3px solid cornflowerblue;
     padding: 5px;
     margin: 8px auto;
     font-size: 1.6rem;
@@ -73,3 +73,54 @@ margin-bottom: 24px;
     margin: 20px 0px;
 }
 
+.citacao {
+    background-color: #cde5fa;
+    border-left: 4px solid #333;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    }
+
+.citacao blockquote {
+    color: #000;
+    font-style: italic;
+}
+
+.citacao p{
+    color: #3b586e;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.curiosidades {
+    padding: 20px;
+}
+
+.curiosidades h2{
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 1.8rem;
+}
+.curiosidades ul{
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.curiosidades li {
+    margin: 6px 0;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    padding: 12px;
+    margin: 10px auto;
+    font-size: 1.8rem;
+}
+   
